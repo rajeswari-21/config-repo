@@ -1,5 +1,3 @@
-#Greetings
-greetings: Hello!!! from config server
 
 
 
@@ -7,16 +5,12 @@ greetings: Hello!!! from config server
 spring:
  datasource:
   url: jdbc:h2:mem:testdb
- driverClassName: org.h2.Driver
- username: sa
- password:
- 
- 
-spring:
-  jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
+  driverClassName: org.h2.Driver
+  username: sa
+  password:
+ jpa:
+  database-platform: org.hibernate.dialect.H2Dialect
 #enabling the H2 console
-spring:
-  h2:
-    console:
-      enabled: true
+ h2:
+  console:
+   enabled: true
