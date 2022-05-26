@@ -1,0 +1,22 @@
+#Greetings
+greetings: Hello!!! from config server
+
+
+
+#h2 database cred
+spring:
+ datasource:
+  url: jdbc:h2:mem:testdb
+ driverClassName: org.h2.Driver
+ username: sa
+ password:
+ 
+ 
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+#enabling the H2 console
+spring:
+  h2:
+    console:
+      enabled: true
