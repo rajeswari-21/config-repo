@@ -15,6 +15,6 @@ spring:
   console:
    enabled: true
    
- booking:
-  application:
-   port: 8082
+booking:
+ application:
+  port: 8082
