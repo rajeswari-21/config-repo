@@ -14,3 +14,7 @@ spring:
  h2:
   console:
    enabled: true
+   
+ booking:
+  application:
+   port: 8082
