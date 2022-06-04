@@ -17,4 +17,4 @@ spring:
    
 booking:
  application:
-  port: 8082
+  port: 8082222
