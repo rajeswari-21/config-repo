@@ -17,4 +17,4 @@ spring:
    
 booking:
  application:
-  port: 9999
+  message: HOLA AMIGOS!!! Hurry-up book your movie tickets
